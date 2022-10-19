@@ -4,6 +4,7 @@ import our_fields.GUI_Crater;
 import our_fields.GUI_Custom;
 import our_fields.GUI_Tower;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class Spil {
@@ -16,15 +17,20 @@ public class Spil {
         //opreter et nyt gui object der indeholder felterne fra arrayet og en baggrundsfarve
         GUI gui = new GUI(fields,Color.GRAY);
         //opretter mine to spillere
-
         //  GUI_Field[] fields = new GUI_Field[13];
         spiller1.tilføjspillerGui(gui);
         spiller2.tilføjspillerGui(gui);
+
+
+
      //  player1.setBalance(1500);
         // Laver ét af hvert felt
        // rykbil(player2,gui,1);
+        if(gui.getUserButtonPressed("Press here to roll dice","Roll Dice")=="Roll Dice")
+        {
+            gui.setDice(terninger.slaEnTerning(), terninger.slaEnTerning());
 
-
+        }
 
 
 
@@ -32,6 +38,7 @@ public class Spil {
     private static GUI_Field[] istantiererFelter()
     {
         GUI_Custom gStart = new GUI_Custom(Color.pink, Color.cyan, "Start", "", "This is the start field");
+        GUI_Custom gEmpty =  new GUI_Custom(Color.red, Color.cyan, "", "", "This field isnt reacherble");
         GUI_Custom gTower = new GUI_Custom(Color.ORANGE, Color.cyan, "Tower", "", "This is a good tower you gain +250 balance");
         GUI_Custom gCrater = new GUI_Custom(Color.BLUE, Color.CYAN, "Crater", "", "You fell into a crater you need to pay to get out -100 balance");
         GUI_Custom gPalaceGates = new GUI_Custom(Color.yellow, Color.CYAN, "Palace Gates ", "", "You arrived at the Palace Gates you recived +100 balance");
@@ -43,7 +50,7 @@ public class Spil {
         GUI_Custom gTheWerewall = new GUI_Custom(Color.RED, Color.cyan, "The WereWall", "", "Its a dangerous place you lose -80 balance but gain a ekstra turn");
         GUI_Custom gThePit = new GUI_Custom(Color.lightGray, Color.cyan, "The Pit", "", "You fall into the pit -50 balance");
         GUI_Custom gGoldmine = new GUI_Custom(Color.yellow, Color.cyan, "Goldmine", "", "You found a goldmine +650 balance");
-        GUI_Field[] fields = {gStart,gTower,gCrater,gPalaceGates,gColdDesert,gWalledCity,gMonastery,gBlackCave,gHutsInTheMountain,gTheWerewall,gThePit,gGoldmine};
+        GUI_Field[] fields = {gStart,gEmpty,gTower,gCrater,gPalaceGates,gColdDesert,gWalledCity,gMonastery,gBlackCave,gHutsInTheMountain,gTheWerewall,gThePit,gGoldmine};
        return (fields);
     }
     private static void rykbil (GUI_Player player, GUI gui,int terning)
