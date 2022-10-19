@@ -8,18 +8,25 @@ import java.awt.*;
 
 public class Spil {
     public static void main(String[] args) {
-       GUI_Player player1 = new GUI_Player("zohan",1000);
-     //  GUI_Field[] fields = new GUI_Field[13];
-
-
-       player1.setBalance(1500);
-        // Laver ét af hvert felt
+        Terninger terninger = new Terninger();
+        Spiller spiller1 = new Spiller("Spiller1",1000,0);
+        Spiller spiller2 = new Spiller("Spiller2",1000,0);
+        //Indsætter felter i felt arrayet
         GUI_Field[] fields = istantiererFelter();
+        //opreter et nyt gui object der indeholder felterne fra arrayet og en baggrundsfarve
         GUI gui = new GUI(fields,Color.GRAY);
+        //opretter mine to spillere
 
-        gui.addPlayer(player1);
-        rykbil(player1,gui,2);
-        rykbil(player1,gui,1);
+        //  GUI_Field[] fields = new GUI_Field[13];
+        spiller1.tilføjspillerGui(gui);
+        spiller2.tilføjspillerGui(gui);
+     //  player1.setBalance(1500);
+        // Laver ét af hvert felt
+       // rykbil(player2,gui,1);
+
+
+
+
 
     }
     private static GUI_Field[] istantiererFelter()
