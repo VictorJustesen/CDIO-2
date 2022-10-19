@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/matadorgui_3_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matadorgui-3.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI_Tower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Konto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Tilføjet GUI og nogle af de klasser vi skal bruge">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_BlackCave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_ColdDessert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_Crater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_Custom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_Goldmine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_HutsInTheMountin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_Monastery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_PalaceGates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_ThePit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_TheWerewall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_WalledCity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI_Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
-      <workItem from="1666087038695" duration="7386000" />
+      <workItem from="1666087038695" duration="15120000" />
     </task>
+    <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
+      <created>1666111659431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666111659431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,25 +108,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Spil.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Spil.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Spil.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tilføjet GUI og nogle af de klasser vi skal bruge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet GUI og nogle af de klasser vi skal bruge" />
   </component>
 </project>
