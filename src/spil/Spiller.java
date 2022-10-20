@@ -37,23 +37,29 @@ public class Spiller {
     }
     public void spil(GUI gui, GUI_Custom[] fields)
     {
-        if (gui.getUserButtonPressed(name+" Press button to roll dice","Roll Dice")=="Roll Dice")
-        {
-            int t1 = terninger.slaEnTerning();
-            int t2 = terninger.slaEnTerning();
-            int tsum = t1+t2;
-            gui.setDice(t1,t2);
-            setCar(tsum,gui);
-            konto = fields[tsum].hit(konto);
-            pl.setBalance(konto.getBalance());
-            if (konto.getBalance()>=3000)
-            {
-                if (gui.getUserButtonPressed(name+" Vandt spillet tryk ok for at afslutte","ok")=="ok")
-                {
-                  System.exit(0);
+        while (true) {
+            if (gui.getUserButtonPressed(name + " Press button to roll dice", "Roll Dice") == "Roll Dice") {
+
+                int t1 = terninger.slaEnTerning();
+                int t2 = terninger.slaEnTerning();
+                int tsum = t1 + t2;
+                gui.setDice(t1, t2);
+                setCar(tsum, gui);
+                displayCard(tsum,gui);
+                konto = fields[tsum].hit(konto);
+                pl.setBalance(konto.getBalance());
+                if (konto.getBalance() >= 3000) {
+                    if (gui.getUserButtonPressed(name + " Vandt spillet tryk ok for at afslutte", "ok") == "ok") {
+                        System.exit(0);
+                    }
+
+                }
+                if (tsum != 10) {
+                    break;
                 }
 
             }
+
         }
     }
     public void setCar(int tsum,GUI gui)
@@ -63,6 +69,10 @@ public class Spiller {
         felt.setCar(pl,true);
         fpos = gui.getFields()[tsum];
     }
-
+    public void displayCard(int tsum, GUI gui)
+    {
+        GUI_Field f = gui.getFields()[tsum];
+        gui.displayChanceCard(f.getTitle()+"\n"+ f.getDescription());
+    }
     }
 

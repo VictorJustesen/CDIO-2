@@ -24,6 +24,8 @@ public class Spil {
         while(true) {
             spiller1.spil(gui, fields);
             spiller2.spil(gui, fields);
+
+
         }
 
     }
