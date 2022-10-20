@@ -1,4 +1,18 @@
 package our_fields;
 
-public class GUI_ThePit {
+import spil.Konto;
+
+import java.awt.*;
+
+public class GUI_ThePit extends GUI_Custom{
+    public GUI_ThePit(Color bgColor, Color fgColor, String title, String subText, String description) {
+        super(bgColor, fgColor, title, subText, description);
+    }
+
+    @Override
+    public Konto hit(Konto konto) {
+        konto.update(-50);
+        return konto;
+
+    }
 }

@@ -1,5 +1,5 @@
 package our_fields;
-
+import spil.*;
 import gui_codebehind.GUI_Center;
 import gui_codebehind.SwingComponentFactory;
 import gui_fields.GUI_Field;
@@ -8,7 +8,7 @@ import gui_fields.GUI_Player;
 import javax.swing.*;
 import java.awt.*;
 
-public class GUI_Custom extends GUI_Field {
+public abstract class GUI_Custom extends GUI_Field {
     private static final int TITLEHEIGHT = 47;
     private static final int SUBTEXTHEIGHT = 14;
     private SwingComponentFactory factory;
@@ -21,6 +21,8 @@ public class GUI_Custom extends GUI_Field {
         this.layered.add(this.titleLabel, this.factory.createGridBagConstraints(0, 0));
         this.layered.add(this.subTextLabel, this.factory.createGridBagConstraints(0, 1));
     }
+    public abstract Konto hit(Konto konto);
+
     private JLabel makeTitleLabel(String titleStart) {
         JLabel l = this.makeLabel(47);
         l.setText(titleStart);

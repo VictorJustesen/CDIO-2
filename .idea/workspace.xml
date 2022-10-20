@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Har tilføjet nogle funktioner">
-      <change afterPath="$PROJECT_DIR$/src/Button.java" afterDir="false" />
+    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde">
+      <change afterPath="$PROJECT_DIR$/src/our_fields/GUI_Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Terninger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terninger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Terninger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Terninger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_BlackCave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_BlackCave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_ColdDessert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_ColdDessert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_Crater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Crater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_Custom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Custom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_Goldmine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Goldmine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_HutsInTheMountin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_HutsInTheMountin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_Monastery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Monastery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_PalaceGates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_PalaceGates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_ThePit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_ThePit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_TheWerewall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_TheWerewall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_Tower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_Tower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our_fields/GUI_WalledCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/our_fields/GUI_WalledCity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +66,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Spil" />
+      <option name="MAIN_CLASS_NAME" value="spil.Spil" />
       <module name="CDIO-2 gruppe24" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
-      <workItem from="1666087038695" duration="22096000" />
+      <workItem from="1666087038695" duration="35598000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>
@@ -94,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666177972272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Har tilføjet en knap hvor man kan rulle med terninger">
+      <created>1666181918581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666181918581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +137,8 @@
     <MESSAGE value="Tilføjet GUI og nogle af de klasser vi skal bruge" />
     <MESSAGE value="Tilføjet en spillerplade uden nogle spille funktioner" />
     <MESSAGE value="Har tilføjet nogle funktioner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Har tilføjet nogle funktioner" />
+    <MESSAGE value="Har tilføjet en knap hvor man kan rulle med terninger" />
+    <MESSAGE value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
   </component>
 </project>

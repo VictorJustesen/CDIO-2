@@ -1,3 +1,5 @@
+package spil;
+
 import gui_codebehind.SwingComponentFactory;
 import gui_fields.FieldMouseListener;
 import gui_fields.GUI_Field;
