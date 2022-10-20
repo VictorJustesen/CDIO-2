@@ -29,7 +29,7 @@ public class Spil {
         }
 
     }
-    private static GUI_Custom[] istantiererFelter()
+    public  static GUI_Custom[] istantiererFelter()
     {
         GUI_Custom gStart = new our_fields.GUI_Start(Color.pink, Color.cyan, "Start", "", "This is the start field");
         GUI_Custom gEmpty =  new GUI_Start(Color.red, Color.cyan, "", "", "This field isnt reacherble");

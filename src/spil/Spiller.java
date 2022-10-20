@@ -12,6 +12,8 @@ public class Spiller {
     Terninger terninger = new Terninger();
     GUI_Player pl;
     GUI_Field fpos;
+    private int t1=0;
+    private int t2=0;
     private String name;
     public Spiller(String name, int bal, int postiotion)
     {
@@ -39,28 +41,32 @@ public class Spiller {
     {
         while (true) {
             if (gui.getUserButtonPressed(name + " Press button to roll dice", "Roll Dice") == "Roll Dice") {
+                turn(fields);
 
-                int t1 = terninger.slaEnTerning();
-                int t2 = terninger.slaEnTerning();
-                int tsum = t1 + t2;
                 gui.setDice(t1, t2);
-                setCar(tsum, gui);
-                displayCard(tsum,gui);
-                konto = fields[tsum].hit(konto);
+                setCar(t1+t2, gui);
+                displayCard(t1+t2,gui);
                 pl.setBalance(konto.getBalance());
+
                 if (konto.getBalance() >= 3000) {
                     if (gui.getUserButtonPressed(name + " Vandt spillet tryk ok for at afslutte", "ok") == "ok") {
                         System.exit(0);
                     }
 
                 }
-                if (tsum != 10) {
+                if (t1+t2 != 10) {
                     break;
                 }
 
             }
 
         }
+    }
+    public void turn(GUI_Custom[] fields)
+    {
+        t1 = terninger.slaEnTerning();
+        t2 = terninger.slaEnTerning();
+        konto = fields[t1+t2].hit(konto);
     }
     public void setCar(int tsum,GUI gui)
     {

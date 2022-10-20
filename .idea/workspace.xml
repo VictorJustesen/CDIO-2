@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Biler virker og selve spil uden funktion af at få dobbelt slag">
+    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske">
+      <change afterPath="$PROJECT_DIR$/test/spil/SpillerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spil/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spil/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spiller.java" afterDir="false" />
     </list>
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,11 +35,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/johan/OneDrive/Desktop/Uddannelse/DTU/indledende programering/CDIO-2"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/johan/OneDrive/Desktop/Uddannelse/DTU/indledende programering/CDIO-2",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -47,8 +59,14 @@
       <recent name="C:\Users\johan\OneDrive\Desktop\Uddannelse\DTU\indledende programering\CDIO-2" />
       <recent name="C:\Users\johan\OneDrive\Desktop\Uddannelse\DTU\indledende programering\CDIO-2\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="spil" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpillerTest.spil">
     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spil.Spil" />
       <module name="CDIO-2 gruppe24" />
@@ -56,8 +74,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpillerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CDIO-2 gruppe24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spil" />
+      <option name="MAIN_CLASS_NAME" value="spil.SpillerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpillerTest.spil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CDIO-2 gruppe24" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spil" />
+      <option name="MAIN_CLASS_NAME" value="spil.SpillerTest" />
+      <option name="METHOD_NAME" value="spil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpillerTest.spil" />
+        <item itemvalue="JUnit.SpillerTest" />
         <item itemvalue="Application.Spil" />
       </list>
     </recent_temporary>
@@ -70,7 +121,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
-      <workItem from="1666087038695" duration="39134000" />
+      <workItem from="1666087038695" duration="46927000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>
@@ -107,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666258971034</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske">
+      <created>1666262797762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666262797762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +189,7 @@
     <MESSAGE value="Har tilføjet en knap hvor man kan rulle med terninger" />
     <MESSAGE value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
     <MESSAGE value="Biler virker og selve spil uden funktion af at få dobbelt slag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Biler virker og selve spil uden funktion af at få dobbelt slag" />
+    <MESSAGE value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
   </component>
 </project>
