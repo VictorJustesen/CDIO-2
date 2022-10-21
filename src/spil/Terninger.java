@@ -7,7 +7,7 @@ public class Terninger {
     {
 
     }
-    public int slaEnTerning()
+    public static int slaEnTerning()
     {
         Random rand = new Random();
         return rand.nextInt(1,7);

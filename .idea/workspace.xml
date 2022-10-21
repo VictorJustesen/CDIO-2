@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske">
-      <change afterPath="$PROJECT_DIR$/test/spil/SpillerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/spil/TerningerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/Terninger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Terninger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +16,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,12 +49,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/johan/OneDrive/Desktop/Uddannelse/DTU/indledende programering/CDIO-2",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -66,7 +73,7 @@
       <recent name="spil" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpillerTest.spil">
+  <component name="RunManager">
     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spil.Spil" />
       <module name="CDIO-2 gruppe24" />
@@ -122,6 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
       <workItem from="1666087038695" duration="46927000" />
+      <workItem from="1666349538220" duration="4616000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>

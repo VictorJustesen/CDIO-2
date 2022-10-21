@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SpillerTest {
 
+    //test af om ens point går under 0
     @org.junit.jupiter.api.Test
     void spil() {
         int mindsbal=1000;
