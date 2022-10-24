@@ -4,8 +4,7 @@
     <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spil/Terninger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Terninger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Konto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +14,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="testbranch" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -48,13 +41,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/johan/OneDrive/Desktop/Uddannelse/DTU/indledende programering/CDIO-2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,7 +64,7 @@
       <recent name="spil" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spil">
+  <component name="RunManager" selected="JUnit.SpillerTest">
     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spil.Spil" />
       <module name="CDIO-2 gruppe24" />
@@ -113,9 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpillerTest.spil" />
         <item itemvalue="JUnit.SpillerTest" />
         <item itemvalue="Application.Spil" />
+        <item itemvalue="JUnit.SpillerTest.spil" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +120,6 @@
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
       <workItem from="1666087038695" duration="46927000" />
-      <workItem from="1666349538220" duration="4616000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>
@@ -197,7 +188,6 @@
     <MESSAGE value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
     <MESSAGE value="Biler virker og selve spil uden funktion af at få dobbelt slag" />
     <MESSAGE value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
-    <MESSAGE value="terningtest update" />
-    <option name="LAST_COMMIT_MESSAGE" value="terningtest update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
   </component>
 </project>

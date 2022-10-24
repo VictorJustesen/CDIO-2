@@ -9,6 +9,10 @@ public class Konto {
     public int update(int b)
     {
         this.b+=b;
+        if (this.b< 0)
+        {
+            this.b= 0;
+        }
         return this.b;
 
     }
