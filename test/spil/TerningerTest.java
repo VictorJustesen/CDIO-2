@@ -1,10 +1,6 @@
 package spil;
-import java.io.*;
-
 import org.junit.Test;
-import our_fields.GUI_Custom;
 
-import java.util.Random;
 
 import static org.junit.Assert.*;
 import static spil.Terninger.slaEnTerning;
