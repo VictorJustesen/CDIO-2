@@ -1,0 +1,77 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,12 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske">
+-      <change afterPath="$PROJECT_DIR$/test/spil/TerningerTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/spil/Terninger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Terninger.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -73,7 +69,7 @@
+       <recent name="spil" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="JUnit.SpillerTest">
+     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="spil.Spil" />
+       <module name="CDIO-2 gruppe24" />
+@@ -114,9 +110,9 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="JUnit.SpillerTest.spil" />
+         <item itemvalue="JUnit.SpillerTest" />
+         <item itemvalue="Application.Spil" />
++        <item itemvalue="JUnit.SpillerTest.spil" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -129,7 +125,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1664887444109</updated>
+       <workItem from="1666087038695" duration="46927000" />
+-      <workItem from="1666349538220" duration="4616000" />
++      <workItem from="1666349538220" duration="6624000" />
+     </task>
+     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
+       <created>1666111659431</created>
+@@ -173,7 +169,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1666262797762</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="terningetest">
++      <created>1666354510875</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1666354510875</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -198,6 +201,7 @@
+     <MESSAGE value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
+     <MESSAGE value="Biler virker og selve spil uden funktion af at få dobbelt slag" />
+     <MESSAGE value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
++    <MESSAGE value="terningetest" />
++    <option name="LAST_COMMIT_MESSAGE" value="terningetest" />
+   </component>
+ </project>
+\ No newline at end of file
