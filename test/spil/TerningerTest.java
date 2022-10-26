@@ -11,8 +11,10 @@ public class TerningerTest {
     public void TestSlaEnTerning () {
 for(int i=0;i<200;i++){
 if((slaEnTerning()<1)||(slaEnTerning()>6)){
-fail("fail");    }}
+fail("Fejl: terningen slog ikke 1-6");    }}
 
+        System.out.println("Test 1 bestået: terningen slår 1-6.");
+        System.out.println();
 
 //rul med to terninger 1000 gange, for at tjekke om øjensummen er normalfordelt
 int samme = 0;
@@ -54,14 +56,16 @@ else {
 System.out.format("%.2f", (fejlmargen));
     System.out.print(" %\n");
 }
-// "%.2f"
+
     }
-    System.out.println( "\nDer var "+samme+ " gange hvor terning 1 og 2 var det samme\n");
-    System.out.println("Summen af de to terninger der slås");
+        System.out.println("\nTest 2 bestået: terningerne har en fejlmargen på 5%");
+
+        System.out.println( "\nDer var "+samme+ " gange hvor terning 1 og 2 var det samme\n");
+    System.out.println("Summen af de to terninger der slås:");
     for (int i= 0; i< 12;i++)
     {
 
-        System.out.println("Sum "+(i+1)+ ": "+sum[i]) ;
+        System.out.println("Sum "+(i+1)+ ": "+sum[i]+" gange") ;
 
     }
 

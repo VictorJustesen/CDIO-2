@@ -139,7 +139,7 @@
       <workItem from="1666713210103" duration="606000" />
       <workItem from="1666771569353" duration="32000" />
       <workItem from="1666805908912" duration="5000" />
-      <workItem from="1666806265303" duration="4472000" />
+      <workItem from="1666806265303" duration="5168000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>
@@ -197,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666809520993</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TerningerTest: tjek af fejlmargin på 5%">
+      <created>1666810786458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666810786458</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TerningerTest: tjek af fejlmargin på 5%">
+      <created>1666810798874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666810798874</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TerningerTest: tjek af fejlmargin på 5%">
+      <created>1666810975557</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666810975557</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
