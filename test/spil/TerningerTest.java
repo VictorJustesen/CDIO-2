@@ -35,6 +35,7 @@ int samme = 0;
             samme+=1 ;
         }
     }
+
     for (int i= 0; i< 6;i++)
     {
         //formel for at finde fejlmargin fra teoretisk sandsynlighed til udfaldet af de tusind terningkast: 1000 kast 2 terninger
@@ -49,6 +50,7 @@ int samme = 0;
 if((fejlmargen>5)){
     fail("Fejlmargin over 5%");
 }
+
 else {
     System.out.print("Antal " + (i + 1) + "'ere: " + antal[i] + " Fejlmargen er ");
     //formatering af fejlmargen resultat: 2 decimaler
@@ -56,19 +58,16 @@ else {
 System.out.format("%.2f", (fejlmargen));
     System.out.print(" %\n");
 }
-
     }
+
         System.out.println("\nTest 2 bestået: terningerne har en fejlmargen på 5%");
 
         System.out.println( "\nDer var "+samme+ " gange hvor terning 1 og 2 var det samme\n");
     System.out.println("Summen af de to terninger der slås:");
     for (int i= 0; i< 12;i++)
     {
-
         System.out.println("Sum "+(i+1)+ ": "+sum[i]+" gange") ;
-
     }
-
-        }
+    }
 }
 
