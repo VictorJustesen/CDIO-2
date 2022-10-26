@@ -42,8 +42,8 @@ int samme = 0;
        if(fejlmargen<0){
            fejlmargen=((((2000.0/6)-antal[i])/(2000.0))*100.0)*-1;
        }
-        //hvis fejlmargen er over 5%, fejler testen
 
+        //hvis fejlmargen er over 5%, fejler testen
 if((fejlmargen>5)){
     fail("Fejlmargin over 5%");
 }
