@@ -48,7 +48,7 @@ if((fejlmargen>5)){
     fail("Fejlmargin over 5%");
 }
 else {
-    System.out.print("Antal " + (i + 1) + ": " + antal[i] + " Fejlmargen er ");
+    System.out.print("Antal " + (i + 1) + "'ere: " + antal[i] + " Fejlmargen er ");
     //formatering af fejlmargen resultat: 2 decimaler
 
 System.out.format("%.2f", (fejlmargen));
