@@ -35,7 +35,9 @@ int samme = 0;
     }
     for (int i= 0; i< 6;i++)
     {
+        //formel for at finde fejlmargin fra teoretisk sandsynlighed til udfaldet af de tusind terningkast: 1000 kast 2 terninger
         double fejlmargen=(((2000.0/6)-antal[i])/(2000.0))*100.0;
+        //hvis fejlmargin er over 5%, fejler testen
 if((fejlmargen<-5)||(fejlmargen>5)){
     fail("Fejlmargin over 5%");
 }
