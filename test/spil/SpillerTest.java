@@ -8,11 +8,11 @@ class SpillerTest {
 
     //test af om ens point går under 0
     @org.junit.jupiter.api.Test
-    void spil() {
+    void spilTestAfKonto() {
         int mindsbal=1000;
         GUI_Custom[] felter = Spil.istantiererFelter();
         Spiller spiller = new Spiller("testplayer",1000,0);
-        for(int i = 0; i<1000;i++)
+        for(int i = 0; i<50000;i++)
         {
             spiller.turn(felter);
             assertEquals(spiller.konto.getBalance()>=0, true);

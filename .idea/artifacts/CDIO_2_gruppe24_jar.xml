@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CDIO-2 gruppe24:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CDIO_2_gruppe24_jar</output-path>
+    <root id="archive" name="CDIO-2 gruppe24.jar">
+      <element id="module-output" name="CDIO-2 gruppe24" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/matadorgui-3.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

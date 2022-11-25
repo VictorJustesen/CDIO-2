@@ -10,7 +10,7 @@ import java.awt.*;
 
 public class Spil {
     public static void main(String[] args) {
-        Terninger terninger = new Terninger();
+        
         Spiller spiller1 = new Spiller("Spiller1",1000,0);
         Spiller spiller2 = new Spiller("Spiller2",1000,0);
         //Indsætter felter i felt arrayet
@@ -18,7 +18,6 @@ public class Spil {
         //opreter et nyt gui object der indeholder felterne fra arrayet og en baggrundsfarve
         GUI gui = new GUI(fields,Color.GRAY);
         //opretter mine to spillere
-        //  GUI_Field[] fields = new GUI_Field[13];
         spiller1.tilføjspillerGui(gui);
         spiller2.tilføjspillerGui(gui);
         while(true) {
@@ -29,6 +28,7 @@ public class Spil {
         }
 
     }
+    //method that istantierer all fields
     public  static GUI_Custom[] istantiererFelter()
     {
         GUI_Custom gStart = new our_fields.GUI_Start(Color.pink, Color.cyan, "Start", "", "This is the start field");
@@ -47,11 +47,7 @@ public class Spil {
         GUI_Custom[] fields = {gStart,gEmpty,gTower,gCrater,gPalaceGates,gColdDesert,gWalledCity,gMonastery,gBlackCave,gHutsInTheMountain,gTheWerewall,gThePit,gGoldmine};
        return (fields);
     }
-    private static void rykbil (GUI_Player player, GUI gui,int terning)
-    {
 
-        GUI_Field field = gui.getFields()[terning];
-        field.setCar(player,true);
-    }
+
 
 }

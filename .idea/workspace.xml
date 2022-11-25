@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CDIO-2 gruppe24:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="">
+    <list default="true" id="d666f9b5-bbbf-43a6-b2d7-1a7093124427" name="Changes" comment="fjernet en unødvendig metode">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CDIO_2_gruppe24_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022,_18_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022__16_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022__16_45__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022__18_18__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022__19_49__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2022__19_49__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_10_2022,_18_58_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24_10_2022__18_58__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_10_2022,_19_50_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_21_10_2022__19_50__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/spil/TerningerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/spil/TerningerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CDIO-2 gruppe24.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/Spil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spil/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spil/Spiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/spil/SpillerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/spil/SpillerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +60,10 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "C:/Users/johan/OneDrive/Desktop/Uddannelse/DTU/indledende programering/CDIO-2",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -64,7 +81,7 @@
       <recent name="spil" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TerningerTest">
+  <component name="RunManager" selected="Application.Spil">
     <configuration name="Spil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spil.Spil" />
       <module name="CDIO-2 gruppe24" />
@@ -76,7 +93,7 @@
       <module name="CDIO-2 gruppe24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spil.TerningerTest" />
+          <option name="PATTERN" value="spil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +108,7 @@
       <module name="CDIO-2 gruppe24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spil.TerningerTest" />
+          <option name="PATTERN" value="spil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,24 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TerningerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CDIO-2 gruppe24" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spil.TerningerTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spil" />
-      <option name="MAIN_CLASS_NAME" value="spil.TerningerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TerningerTest" />
         <item itemvalue="Application.Spil" />
         <item itemvalue="JUnit.SpillerTest" />
         <item itemvalue="JUnit.SpillerTest.spil" />
@@ -136,10 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664887444109</updated>
       <workItem from="1666087038695" duration="46927000" />
-      <workItem from="1666713210103" duration="606000" />
-      <workItem from="1666771569353" duration="32000" />
-      <workItem from="1666805908912" duration="5000" />
-      <workItem from="1666806265303" duration="5168000" />
+      <workItem from="1667470608545" duration="6816000" />
+      <workItem from="1669293829410" duration="3040000" />
     </task>
     <task id="LOCAL-00001" summary="Tilføjet GUI og nogle af de klasser vi skal bruge">
       <created>1666111659431</created>
@@ -183,42 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666262797762</updated>
     </task>
-    <task id="LOCAL-00007" summary="TerningerTest: tjek af fejlmargin på 5%">
-      <created>1666808801337</created>
+    <task id="LOCAL-00007" summary="fjernet en unødvendig metode">
+      <created>1666946855988</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1666808801337</updated>
+      <updated>1666946855988</updated>
     </task>
-    <task id="LOCAL-00008" summary="TerningerTest: tjek af fejlmargin på 5%">
-      <created>1666809520993</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666809520993</updated>
-    </task>
-    <task id="LOCAL-00009" summary="TerningerTest: tjek af fejlmargin på 5%">
-      <created>1666810786458</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1666810786458</updated>
-    </task>
-    <task id="LOCAL-00010" summary="TerningerTest: tjek af fejlmargin på 5%">
-      <created>1666810798874</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1666810798874</updated>
-    </task>
-    <task id="LOCAL-00011" summary="TerningerTest: tjek af fejlmargin på 5%">
-      <created>1666810975557</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1666810975557</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +214,7 @@
     <MESSAGE value="Har tilføjet lidt ekstra funkioner er igang med at finde ud af hvordan man skal fjerne ballance når nogle rammer et felt på den bedste måde" />
     <MESSAGE value="Biler virker og selve spil uden funktion af at få dobbelt slag" />
     <MESSAGE value="Spillet virker som det skal der mangler bare test og har ikke taget stilling til hvis balancen bliver under 0 da vi ikke ved hvad der så skal ske" />
-    <MESSAGE value="TerningerTest: tjek af fejlmargin på 5%" />
-    <option name="LAST_COMMIT_MESSAGE" value="TerningerTest: tjek af fejlmargin på 5%" />
+    <MESSAGE value="fjernet en unødvendig metode" />
+    <option name="LAST_COMMIT_MESSAGE" value="fjernet en unødvendig metode" />
   </component>
 </project>

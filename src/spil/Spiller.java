@@ -37,6 +37,7 @@ public class Spiller {
 
         return konto;
     }
+    //spiller en runde for den spiller der er kaldt
     public void spil(GUI gui, GUI_Custom[] fields)
     {
         while (true) {
